@@ -1,11 +1,11 @@
-# Community Newsletters {#community-newsletters}
+# Buletin Komunitas {#community-newsletters}
 
-There are many great newsletters / Vue-dedicated blogs from the community bringing you latest news and happenings in the Vue ecosystem. Here is a non-exhaustive list of active ones that we have come across:
+Ada banyak buletin besar / blog yang berdedikasi Vue dari komunitas yang membawa Anda berita dan kejadian terbaru di ekosistem Vue. Berikut ini adalah daftar yang tidak lengkap dari yang aktif yang kami temui:
 
-- [Vue.js Feed](https://vuejsfeed.com/)
+- [Feed Vue.js](https://vuejsfeed.com/)
 - [Michael Thiessen](https://michaelnthiessen.com/newsletter)
 - [Jakub Andrzejewski](https://dev.to/jacobandrewsky)
-- [Weekly Vue News](https://weekly-vue.news/)
-- [Vue.js Developers Newsletter](https://vuejsdevelopers.com/newsletter/)
+- [Berita Vue Mingguan](https://weekly-vue.news/)
+- [Buletin Pengembang Vue.js](https://vuejsdevelopers.com/newsletter/)
 
-If you know a great one that isn't already included, please submit a pull request using the link below!
+Jika Anda tahu yang bagus yang belum termasuk, silakan kirim *pull request* menggunakan tautan di bawah ini!

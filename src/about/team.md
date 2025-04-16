@@ -1,6 +1,6 @@
 ---
 page: true
-title: Meet the Team
+title: Temui Tim
 ---
 
 <script setup>

@@ -9,22 +9,22 @@ onMounted(() => {
 })
 </script>
 
-# Production Error Code Reference {#error-reference}
+# Referensi Kode Kesalahan Produksi {#error-reference}
 
-## Runtime Errors {#runtime-errors}
+## Kesalahan Runtime {#runtime-errors}
 
-In production builds, the 3rd argument passed to the following error handler APIs will be a short code instead of the full information string:
+Dalam pembuatan produksi, argumen ke-3 yang diteruskan ke API penangan galat berikut akan menjadi kode pendek alih-alih string informasi lengkap:
 
 - [`app.config.errorHandler`](/api/application#app-config-errorhandler)
 - [`onErrorCaptured`](/api/composition-api-lifecycle#onerrorcaptured) (Composition API)
 - [`errorCaptured`](/api/options-lifecycle#errorcaptured) (Options API)
 
-The following table maps the codes to their original full information strings.
+Tabel berikut memetakan kode ke string informasi lengkap asli mereka.
 
 <ErrorsTable kind="runtime" :errors="data.runtime" :highlight="highlight" />
 
-## Compiler Errors {#compiler-errors}
+## Kesalahan Kompiler {#compiler-errors}
 
-The following table provides a mapping of the production compiler error codes to their original messages.
+Tabel berikut ini menyediakan pemetaan kode kesalahan kompiler produksi ke pesan asli mereka.
 
 <ErrorsTable kind="compiler" :errors="data.compiler" :highlight="highlight" />

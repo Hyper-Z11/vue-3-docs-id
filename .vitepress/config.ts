@@ -9,22 +9,22 @@ import { headerPlugin } from './headerMdPlugin'
 
 const nav: ThemeConfig['nav'] = [
   {
-    text: 'Docs',
+    text: 'Dokumentasi',
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
-      { text: 'Guide', link: '/guide/introduction' },
+      { text: 'Panduan', link: '/guide/introduction' },
       { text: 'Tutorial', link: '/tutorial/' },
-      { text: 'Examples', link: '/examples/' },
-      { text: 'Quick Start', link: '/guide/quick-start' },
+      { text: 'Contoh', link: '/examples/' },
+      { text: 'Mulai Cepat', link: '/guide/quick-start' },
       // { text: 'Style Guide', link: '/style-guide/' },
-      { text: 'Glossary', link: '/glossary/' },
-      { text: 'Error Reference', link: '/error-reference/' },
+      { text: 'Glosarium', link: '/glossary/' },
+      { text: 'Referensi Kesalahan', link: '/error-reference/' },
       {
-        text: 'Vue 2 Docs',
+        text: 'Dokumentasi Vue 2',
         link: 'https://v2.vuejs.org'
       },
       {
-        text: 'Migration from Vue 2',
+        text: 'Migrasi dari Vue 2',
         link: 'https://v3-migration.vuejs.org/'
       }
     ]
@@ -35,89 +35,89 @@ const nav: ThemeConfig['nav'] = [
     link: '/api/'
   },
   {
-    text: 'Playground',
+    text: 'Taman Bermain',
     link: 'https://play.vuejs.org'
   },
   {
-    text: 'Ecosystem',
+    text: 'Ekosistem',
     activeMatch: `^/ecosystem/`,
     items: [
       {
-        text: 'Resources',
+        text: 'Sumber Daya',
         items: [
-          { text: 'Partners', link: '/partners/' },
-          { text: 'Developers', link: '/developers/' },
-          { text: 'Themes', link: '/ecosystem/themes' },
-          { text: 'UI Components', link: 'https://ui-libs.vercel.app/' },
+          { text: 'Mitra', link: '/partners/' },
+          { text: 'Pengembang', link: '/developers/' },
+          { text: 'Tema', link: '/ecosystem/themes' },
+          { text: 'Komponen UI', link: 'https://ui-libs.vercel.app/' },
           {
-            text: 'Certification',
+            text: 'Sertifikasi',
             link: 'https://certificates.dev/vuejs/?ref=vuejs-nav'
           },
-          { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
-          { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
+          { text: 'Pekerjaan', link: 'https://vuejobs.com/?ref=vuejs' },
+          { text: 'Toko T-Shirt', link: 'https://vue.threadless.com/' }
         ]
       },
       {
-        text: 'Official Libraries',
+        text: 'Perpustakaan Resmi',
         items: [
-          { text: 'Vue Router', link: 'https://router.vuejs.org/' },
+          { text: 'Router Vue', link: 'https://router.vuejs.org/' },
           { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
-          { text: 'Tooling Guide', link: '/guide/scaling-up/tooling.html' }
+          { text: 'Panduan Peralatan', link: '/guide/scaling-up/tooling.html' }
         ]
       },
       {
-        text: 'Video Courses',
+        text: 'Video Kursus',
         items: [
           {
-            text: 'Vue Mastery',
+            text: 'Menguasai Vue',
             link: 'https://www.vuemastery.com/courses/'
           },
           {
-            text: 'Vue School',
+            text: 'Sekolah Vue',
             link: 'https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown'
           }
         ]
       },
       {
-        text: 'Help',
+        text: 'Bantuan',
         items: [
           {
-            text: 'Discord Chat',
+            text: 'Obrolan Discord',
             link: 'https://discord.com/invite/HBherRA'
           },
           {
-            text: 'GitHub Discussions',
+            text: 'Diskusi GitHub',
             link: 'https://github.com/vuejs/core/discussions'
           },
-          { text: 'DEV Community', link: 'https://dev.to/t/vue' }
+          { text: 'Komunitas DEV', link: 'https://dev.to/t/vue' }
         ]
       },
       {
-        text: 'News',
+        text: 'Berita',
         items: [
           { text: 'Blog', link: 'https://blog.vuejs.org/' },
           { text: 'Twitter', link: 'https://twitter.com/vuejs' },
-          { text: 'Events', link: 'https://events.vuejs.org/' },
-          { text: 'Newsletters', link: '/ecosystem/newsletters' }
+          { text: 'Acara', link: 'https://events.vuejs.org/' },
+          { text: 'Buletin', link: '/ecosystem/newsletters' }
         ]
       }
     ]
   },
   {
-    text: 'About',
+    text: 'Tentang',
     activeMatch: `^/about/`,
     items: [
       { text: 'FAQ', link: '/about/faq' },
-      { text: 'Team', link: '/about/team' },
-      { text: 'Releases', link: '/about/releases' },
+      { text: 'Tim', link: '/about/team' },
+      { text: 'Rilis', link: '/about/releases' },
       {
-        text: 'Community Guide',
+        text: 'Panduan Komunitas',
         link: '/about/community-guide'
       },
-      { text: 'Code of Conduct', link: '/about/coc' },
-      { text: 'Privacy Policy', link: '/about/privacy' },
+      { text: 'Kode Etik', link: '/about/coc' },
+      { text: 'Kebijakan Privasi', link: '/about/privacy' },
       {
-        text: 'The Documentary',
+        text: 'Dokumenter',
         link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
       }
     ]
@@ -127,12 +127,12 @@ const nav: ThemeConfig['nav'] = [
     link: '/sponsor/'
   },
   {
-    text: 'Experts',
-    badge: { text: 'NEW' },
+    text: 'Ahli',
+    badge: { text: 'BARU' },
     activeMatch: `^/(partners|developers)/`,
     items: [
-      { text: 'Partners', link: '/partners/' },
-      { text: 'Developers', link: '/developers/', badge: { text: 'NEW' } }
+      { text: 'Mitra', link: '/partners/' },
+      { text: 'Pengembang', link: '/developers/', badge: { text: 'Baru' } }
     ]
   }
 ]
@@ -140,101 +140,101 @@ const nav: ThemeConfig['nav'] = [
 export const sidebar: ThemeConfig['sidebar'] = {
   '/guide/': [
     {
-      text: 'Getting Started',
+      text: 'Memulai',
       items: [
-        { text: 'Introduction', link: '/guide/introduction' },
+        { text: 'Pengantar', link: '/guide/introduction' },
         {
-          text: 'Quick Start',
+          text: 'Mulai Cepat',
           link: '/guide/quick-start'
         }
       ]
     },
     {
-      text: 'Essentials',
+      text: 'Hal-Hal Pokok',
       items: [
         {
-          text: 'Creating an Application',
+          text: 'Membuat Sebuah Aplikasi',
           link: '/guide/essentials/application'
         },
         {
-          text: 'Template Syntax',
+          text: 'Sintaks Templat',
           link: '/guide/essentials/template-syntax'
         },
         {
-          text: 'Reactivity Fundamentals',
+          text: 'Dasar-Dasar Reaktivitas',
           link: '/guide/essentials/reactivity-fundamentals'
         },
         {
-          text: 'Computed Properties',
+          text: 'Properti yang Dihitung',
           link: '/guide/essentials/computed'
         },
         {
-          text: 'Class and Style Bindings',
+          text: 'Ikatan Kelas dan Gaya',
           link: '/guide/essentials/class-and-style'
         },
         {
-          text: 'Conditional Rendering',
+          text: 'Rendering Bersyarat',
           link: '/guide/essentials/conditional'
         },
-        { text: 'List Rendering', link: '/guide/essentials/list' },
+        { text: 'Rendering Daftar', link: '/guide/essentials/list' },
         {
-          text: 'Event Handling',
+          text: 'Penanganan Kejadian',
           link: '/guide/essentials/event-handling'
         },
-        { text: 'Form Input Bindings', link: '/guide/essentials/forms' },
-        { text: 'Watchers', link: '/guide/essentials/watchers' },
-        { text: 'Template Refs', link: '/guide/essentials/template-refs' },
+        { text: 'Mengikat Masukan Formulir', link: '/guide/essentials/forms' },
+        { text: 'Pengamat', link: '/guide/essentials/watchers' },
+        { text: 'Templat Refs', link: '/guide/essentials/template-refs' },
         {
-          text: 'Components Basics',
+          text: 'Dasar-Dasar Komponen',
           link: '/guide/essentials/component-basics'
         },
         {
-          text: 'Lifecycle Hooks',
+          text: 'Kait Siklus Hidup',
           link: '/guide/essentials/lifecycle'
         }
       ]
     },
     {
-      text: 'Components In-Depth',
+      text: 'Komponen Mendalam',
       items: [
         {
-          text: 'Registration',
+          text: 'Pendaftaran',
           link: '/guide/components/registration'
         },
         { text: 'Props', link: '/guide/components/props' },
-        { text: 'Events', link: '/guide/components/events' },
-        { text: 'Component v-model', link: '/guide/components/v-model' },
+        { text: 'Kejadian', link: '/guide/components/events' },
+        { text: 'Komponen v-model', link: '/guide/components/v-model' },
         {
-          text: 'Fallthrough Attributes',
+          text: 'Atribut Fallthrough',
           link: '/guide/components/attrs'
         },
-        { text: 'Slots', link: '/guide/components/slots' },
+        { text: 'Slot', link: '/guide/components/slots' },
         {
-          text: 'Provide / inject',
+          text: 'Menyediakan / menyuntikkan',
           link: '/guide/components/provide-inject'
         },
         {
-          text: 'Async Components',
+          text: 'Komponen Asinkron',
           link: '/guide/components/async'
         }
       ]
     },
     {
-      text: 'Reusability',
+      text: 'Reusabilitas',
       items: [
         {
-          text: 'Composables',
+          text: 'Fungsi Komposisi',
           link: '/guide/reusability/composables'
         },
         {
-          text: 'Custom Directives',
+          text: 'Direktif Kostum',
           link: '/guide/reusability/custom-directives'
         },
-        { text: 'Plugins', link: '/guide/reusability/plugins' }
+        { text: 'Plugin', link: '/guide/reusability/plugins' }
       ]
     },
     {
-      text: 'Built-in Components',
+      text: 'Komponen Bawaan',
       items: [
         { text: 'Transition', link: '/guide/built-ins/transition' },
         {
@@ -247,39 +247,39 @@ export const sidebar: ThemeConfig['sidebar'] = {
       ]
     },
     {
-      text: 'Scaling Up',
+      text: 'Meningkatkan',
       items: [
-        { text: 'Single-File Components', link: '/guide/scaling-up/sfc' },
-        { text: 'Tooling', link: '/guide/scaling-up/tooling' },
+        { text: 'Komponen Berkas Tunggal', link: '/guide/scaling-up/sfc' },
+        { text: 'Perkakas', link: '/guide/scaling-up/tooling' },
         { text: 'Routing', link: '/guide/scaling-up/routing' },
         {
-          text: 'State Management',
+          text: 'Manajemen Keadaan',
           link: '/guide/scaling-up/state-management'
         },
-        { text: 'Testing', link: '/guide/scaling-up/testing' },
+        { text: 'Pengujian', link: '/guide/scaling-up/testing' },
         {
-          text: 'Server-Side Rendering (SSR)',
+          text: 'Rendering Sisi Server (SSR)',
           link: '/guide/scaling-up/ssr'
         }
       ]
     },
     {
-      text: 'Best Practices',
+      text: 'Latihan Terbaik',
       items: [
         {
-          text: 'Production Deployment',
+          text: 'Penyebaran Produksi',
           link: '/guide/best-practices/production-deployment'
         },
         {
-          text: 'Performance',
+          text: 'Kinerja',
           link: '/guide/best-practices/performance'
         },
         {
-          text: 'Accessibility',
+          text: 'Aksesbilitas',
           link: '/guide/best-practices/accessibility'
         },
         {
-          text: 'Security',
+          text: 'Keamanan',
           link: '/guide/best-practices/security'
         }
       ]
@@ -287,46 +287,46 @@ export const sidebar: ThemeConfig['sidebar'] = {
     {
       text: 'TypeScript',
       items: [
-        { text: 'Overview', link: '/guide/typescript/overview' },
+        { text: 'Peninjauan', link: '/guide/typescript/overview' },
         {
-          text: 'TS with Composition API',
+          text: 'TS dengan API Komposisi',
           link: '/guide/typescript/composition-api'
         },
         {
-          text: 'TS with Options API',
+          text: 'TS dengan API Opsi',
           link: '/guide/typescript/options-api'
         }
       ]
     },
     {
-      text: 'Extra Topics',
+      text: 'Topik Ekstra',
       items: [
         {
-          text: 'Ways of Using Vue',
+          text: 'Cara Menggunakan Vue',
           link: '/guide/extras/ways-of-using-vue'
         },
         {
-          text: 'Composition API FAQ',
+          text: 'FAQ API Komposisi',
           link: '/guide/extras/composition-api-faq'
         },
         {
-          text: 'Reactivity in Depth',
+          text: 'Reaktivitas Mendalam',
           link: '/guide/extras/reactivity-in-depth'
         },
         {
-          text: 'Rendering Mechanism',
+          text: 'Mekanisme Rendering',
           link: '/guide/extras/rendering-mechanism'
         },
         {
-          text: 'Render Functions & JSX',
+          text: 'Render Fungsi & JSX',
           link: '/guide/extras/render-function'
         },
         {
-          text: 'Vue and Web Components',
+          text: 'Vue dan Komponen Web',
           link: '/guide/extras/web-components'
         },
         {
-          text: 'Animation Techniques',
+          text: 'Teknik Animasi',
           link: '/guide/extras/animation'
         }
         // {
@@ -342,159 +342,159 @@ export const sidebar: ThemeConfig['sidebar'] = {
   ],
   '/api/': [
     {
-      text: 'Global API',
+      text: 'API Global',
       items: [
-        { text: 'Application', link: '/api/application' },
+        { text: 'Aplikasi', link: '/api/application' },
         {
-          text: 'General',
+          text: 'Umum',
           link: '/api/general'
         }
       ]
     },
     {
-      text: 'Composition API',
+      text: 'API Komposisi',
       items: [
         { text: 'setup()', link: '/api/composition-api-setup' },
         {
-          text: 'Reactivity: Core',
+          text: 'Reaktivitas: Inti',
           link: '/api/reactivity-core'
         },
         {
-          text: 'Reactivity: Utilities',
+          text: 'Reaktivitas: Utilitas',
           link: '/api/reactivity-utilities'
         },
         {
-          text: 'Reactivity: Advanced',
+          text: 'Reaktivitas: Lanjutan',
           link: '/api/reactivity-advanced'
         },
         {
-          text: 'Lifecycle Hooks',
+          text: 'Kait Siklus Hidup',
           link: '/api/composition-api-lifecycle'
         },
         {
-          text: 'Dependency Injection',
+          text: 'Injeksi Ketergantungan',
           link: '/api/composition-api-dependency-injection'
         },
         {
-          text: 'Helpers',
+          text: 'Pembantu',
           link: '/api/composition-api-helpers'
         }
       ]
     },
     {
-      text: 'Options API',
+      text: 'API Opsi',
       items: [
-        { text: 'Options: State', link: '/api/options-state' },
-        { text: 'Options: Rendering', link: '/api/options-rendering' },
+        { text: 'Opsi: Keadaan', link: '/api/options-state' },
+        { text: 'Opsi: Rendering', link: '/api/options-rendering' },
         {
-          text: 'Options: Lifecycle',
+          text: 'Opsi: Siklus Hidup',
           link: '/api/options-lifecycle'
         },
         {
-          text: 'Options: Composition',
+          text: 'Opsi: Komposisi',
           link: '/api/options-composition'
         },
-        { text: 'Options: Misc', link: '/api/options-misc' },
+        { text: 'Opsi: Lain-Lain', link: '/api/options-misc' },
         {
-          text: 'Component Instance',
+          text: 'Contoh Komponen',
           link: '/api/component-instance'
         }
       ]
     },
     {
-      text: 'Built-ins',
+      text: 'Bawaan',
       items: [
-        { text: 'Directives', link: '/api/built-in-directives' },
-        { text: 'Components', link: '/api/built-in-components' },
+        { text: 'Direktif', link: '/api/built-in-directives' },
+        { text: 'Komponen', link: '/api/built-in-components' },
         {
-          text: 'Special Elements',
+          text: 'Elemen Spesial',
           link: '/api/built-in-special-elements'
         },
         {
-          text: 'Special Attributes',
+          text: 'Atribut Spesial',
           link: '/api/built-in-special-attributes'
         }
       ]
     },
     {
-      text: 'Single-File Component',
+      text: 'Komponen Berkas Tunggal',
       items: [
-        { text: 'Syntax Specification', link: '/api/sfc-spec' },
+        { text: 'Spesifikasi Sintaks', link: '/api/sfc-spec' },
         { text: '<script setup>', link: '/api/sfc-script-setup' },
-        { text: 'CSS Features', link: '/api/sfc-css-features' }
+        { text: 'Fitur CSS', link: '/api/sfc-css-features' }
       ]
     },
     {
-      text: 'Advanced APIs',
+      text: 'API Lanjutan',
       items: [
-        { text: 'Custom Elements', link: '/api/custom-elements' },
-        { text: 'Render Function', link: '/api/render-function' },
-        { text: 'Server-Side Rendering', link: '/api/ssr' },
-        { text: 'TypeScript Utility Types', link: '/api/utility-types' },
-        { text: 'Custom Renderer', link: '/api/custom-renderer' },
-        { text: 'Compile-Time Flags', link: '/api/compile-time-flags' }
+        { text: 'Elemen Khusus', link: '/api/custom-elements' },
+        { text: 'Fungsi Render', link: '/api/render-function' },
+        { text: 'Rendering Sisi Server', link: '/api/ssr' },
+        { text: 'Utilitas Tipe TypeScript', link: '/api/utility-types' },
+        { text: 'Renderer Kostum', link: '/api/custom-renderer' },
+        { text: 'Bendera Waktu Kompilasi', link: '/api/compile-time-flags' }
       ]
     }
   ],
   '/examples/': [
     {
-      text: 'Basic',
+      text: 'Dasar',
       items: [
         {
-          text: 'Hello World',
+          text: 'Halo Dunia',
           link: '/examples/#hello-world'
         },
         {
-          text: 'Handling User Input',
+          text: 'Menangani Masukan Pengguna',
           link: '/examples/#handling-input'
         },
         {
-          text: 'Attribute Bindings',
+          text: 'Mengikat Atribut',
           link: '/examples/#attribute-bindings'
         },
         {
-          text: 'Conditionals and Loops',
+          text: 'Kondisi dan Perulangan',
           link: '/examples/#conditionals-and-loops'
         },
         {
-          text: 'Form Bindings',
+          text: 'Mengikat Formulir',
           link: '/examples/#form-bindings'
         },
         {
-          text: 'Simple Component',
+          text: 'Komponen Sederhana',
           link: '/examples/#simple-component'
         }
       ]
     },
     {
-      text: 'Practical',
+      text: 'Praktik',
       items: [
         {
-          text: 'Markdown Editor',
+          text: 'Editor Markdown',
           link: '/examples/#markdown'
         },
         {
-          text: 'Fetching Data',
+          text: 'Mengambil Data',
           link: '/examples/#fetching-data'
         },
         {
-          text: 'Grid with Sort and Filter',
+          text: 'Kisi dengan Sortir dan Filter',
           link: '/examples/#grid'
         },
         {
-          text: 'Tree View',
+          text: 'Tampilan Pohon',
           link: '/examples/#tree'
         },
         {
-          text: 'SVG Graph',
+          text: 'Grafik SVG',
           link: '/examples/#svg'
         },
         {
-          text: 'Modal with Transitions',
+          text: 'Modal dengan Transisi',
           link: '/examples/#modal'
         },
         {
-          text: 'List with Transitions',
+          text: 'Daftar dengan Transisi',
           link: '/examples/#list-transition'
         },
         {
@@ -508,19 +508,19 @@ export const sidebar: ThemeConfig['sidebar'] = {
       text: '7 GUIs',
       items: [
         {
-          text: 'Counter',
+          text: 'Alat Penghitung',
           link: '/examples/#counter'
         },
         {
-          text: 'Temperature Converter',
+          text: 'Pengubah Nilai Temperatur',
           link: '/examples/#temperature-converter'
         },
         {
-          text: 'Flight Booker',
+          text: 'Pemesanan Penerbangan',
           link: '/examples/#flight-booker'
         },
         {
-          text: 'Timer',
+          text: 'Pengatur Waktu',
           link: '/examples/#timer'
         },
         {
@@ -528,11 +528,11 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/examples/#crud'
         },
         {
-          text: 'Circle Drawer',
+          text: 'Penggambar Lingkaran',
           link: '/examples/#circle-drawer'
         },
         {
-          text: 'Cells',
+          text: 'Sel-Sel',
           link: '/examples/#cells'
         }
       ]
@@ -540,26 +540,26 @@ export const sidebar: ThemeConfig['sidebar'] = {
   ],
   '/style-guide/': [
     {
-      text: 'Style Guide',
+      text: 'Panduan Gaya',
       items: [
         {
-          text: 'Overview',
+          text: 'Peninjauan',
           link: '/style-guide/'
         },
         {
-          text: 'A - Essential',
+          text: 'A - Hal Pokok',
           link: '/style-guide/rules-essential'
         },
         {
-          text: 'B - Strongly Recommended',
+          text: 'B - Rekomendasi Kuat',
           link: '/style-guide/rules-strongly-recommended'
         },
         {
-          text: 'C - Recommended',
+          text: 'C - Rekomendasi',
           link: '/style-guide/rules-recommended'
         },
         {
-          text: 'D - Use with Caution',
+          text: 'D - Gunakan dengan Hati-Hati',
           link: '/style-guide/rules-use-with-caution'
         }
       ]
@@ -568,8 +568,63 @@ export const sidebar: ThemeConfig['sidebar'] = {
 }
 
 // Placeholder of the i18n config for @vuejs-translations.
-// const i18n: ThemeConfig['i18n'] = {
-// }
+const i18n: ThemeConfig['i18n'] = {
+  
+  ariaAnnouncer: {
+    before: '',
+    after: ' telah dimuat'
+  },
+  
+  deadLink: {
+    before: 'Anda menemukan tautan mati: ',
+    after: ''
+  },
+  
+  deadLinkReport: {
+    before: 'Tolong ',
+    link: 'beritahu kami',
+    after: ' sehingga kami dapat memperbaikinya.'
+  },
+  
+  footerLicense: {
+    before: 'Rilis dibawah ',
+    after: '.'
+  },
+  
+  pageNotFound: 'Halaman Tidak Ditemukan',
+  
+  previous: 'Sebelumnya',
+  next: 'Selanjutnya',
+  
+  toc: 'Di halaman ini',
+  ariaToC: 'Daftar Isi untuk halaman saat ini',
+  
+  menu: 'Menu',
+  returnToTop: 'Kembali ke atas',
+  
+  appearance: 'Penampilan',
+  
+  ariaLanguage: 'Pilih Bahasa',
+  
+  ariaRepo: {
+    before: 'Repositori ',
+    after: ''
+  },
+  
+  ariaMainNav: 'Navigasi Utama',
+  
+  locales: 'Terjemahan',
+  
+  search: 'Cari',
+  
+  ariaSidebarNav: 'Navigasi Sidebar',
+  
+  ariaSkipToContent: 'Lewati Konten',
+  
+  ariaDarkMode: 'Beralih mode gelap',
+  
+  ariaMobileNav: 'Navigasi mobile'
+}
 
 function inlineScript(file: string): HeadConfig {
   return [
@@ -589,9 +644,9 @@ export default defineConfigWithTheme<ThemeConfig>({
     hostname: 'https://vuejs.org'
   },
 
-  lang: 'en-US',
+  lang: 'id-ID',
   title: 'Vue.js',
-  description: 'Vue.js - The Progressive JavaScript Framework',
+  description: 'Vue.js - Kerangka Kerja JavaScript Progresif',
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],
 
@@ -604,7 +659,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       'meta',
       {
         property: 'og:description',
-        content: 'Vue.js - The Progressive JavaScript Framework'
+        content: 'Vue.js - Kerangka Kerja JavaScript Progresif'
       }
     ],
     [
@@ -641,14 +696,14 @@ export default defineConfigWithTheme<ThemeConfig>({
         async: 'true'
       }
     ],
-    inlineScript('perfops.js')
+    inlineScript('perfops.js'),
   ],
 
   themeConfig: {
     nav,
     sidebar,
     // Placeholder of the i18n config for @vuejs-translations.
-    // i18n,
+    i18n,
 
     localeLinks: [
       {
@@ -699,7 +754,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       {
         link: 'https://ru.vuejs.org',
         text: 'Русский',
-        repo: 'https://github.com/vuejs-translations/docs-ru'
+        repo: 'https://github.com/translation-gang/docs-ru'
       },
       {
         link: 'https://cs.vuejs.org',
@@ -718,7 +773,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       },
       {
         link: '/translations/',
-        text: 'Help Us Translate!',
+        text: 'Bantu Kami Terjemahkan!',
         isTranslationsDesc: true
       }
     ],
@@ -745,15 +800,15 @@ export default defineConfigWithTheme<ThemeConfig>({
 
     editLink: {
       repo: 'vuejs/docs',
-      text: 'Edit this page on GitHub'
+      text: 'Edit halaman ini di GitHub'
     },
 
     footer: {
       license: {
-        text: 'MIT License',
+        text: 'Lisensi MIT',
         link: 'https://opensource.org/licenses/MIT'
       },
-      copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
+      copyright: `Hak Cipta © 2014-${new Date().getFullYear()} Evan You`
     }
   },
 

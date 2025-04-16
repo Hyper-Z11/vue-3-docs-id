@@ -99,16 +99,15 @@ function dismiss() {
   <Transition name="fly-in">
     <div class="preference-tooltip" v-if="show">
       <template v-if="source === 'default'">
-        <p>API style now defaults to Composition API.</p>
+        <p>Gaya API sekarang default ke API Komposisi.</p>
         <p>
-          Some pages contain different content based on the API style
-          chosen. Use this switch to toggle between APIs styles.
+          Beberapa halaman berisi konten yang berbeda berdasarkan gaya API yang dipilih. Gunakan sakelar ini untuk beralih di antara gaya API.
         </p>
       </template>
       <template v-if="source && source.startsWith('url')">
         <p>
-          Showing content for
-          {{ preferComposition ? 'Composition' : 'Options' }} API because
+          Tampilkan konten untuk API
+          {{ preferComposition ? 'Composition' : 'Options' }} karena
           {{
             source === 'url-query'
               ? 'it is specified by the URL query.'
@@ -116,13 +115,12 @@ function dismiss() {
           }}
         </p>
         <p>
-          This is different from your saved preference and will only affect
-          the current browsing session.
+          Ini berbeda dari preferensi Anda yang disimpan dan hanya akan mempengaruhi sesi penjelajahan saat ini.
         </p>
       </template>
       <p class="actions">
-        <a href="/guide/introduction#api-styles">Learn more</a>
-        <button @click="dismiss">Got it</button>
+        <a href="/guide/introduction#api-styles">Pelajari lebih lanjut</a>
+        <button @click="dismiss">Oke</button>
       </p>
       <div class="arrow-top"></div>
       <div class="arrow-top inner"></div>

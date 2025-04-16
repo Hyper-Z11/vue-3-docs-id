@@ -1,7 +1,7 @@
 [
   {
     "name": "Maria Lamardo",
-    "title": "Front End Engineer",
+    "title": "Insinyur Front End",
     "company": "Pendo",
     "projects": [
       {
@@ -9,8 +9,8 @@
         "url": "https://github.com/vuejs/events"
       }
     ],
-    "location": "Raleigh, NC, USA",
-    "languages": ["English", "Spanish"],
+    "location": "Raleigh, NC, Amerika Serikat",
+    "languages": ["Bahasa Inggris", "Bahasa Spanyol"],
     "socials": {
       "github": "mlama007",
       "twitter": "MariaLamardo"
@@ -18,7 +18,7 @@
   },
   {
     "name": "Daniel Roe",
-    "title": "Framework Architect",
+    "title": "Arsitek Kerangka Kerja",
     "company": "Nuxt",
     "projects": [
       {
@@ -30,8 +30,8 @@
         "url": "https://github.com/danielroe/typed-vuex"
       }
     ],
-    "location": "United Kingdom",
-    "languages": ["English"],
+    "location": "Inggris",
+    "languages": ["Bahasa Inggris"],
     "socials": {
       "github": "danielroe",
       "twitter": "danielcroe",
@@ -49,8 +49,8 @@
         "url": "https://us.vuejs.org/"
       }
     ],
-    "location": "Atlanta, GA, USA",
-    "languages": ["English"],
+    "location": "Atlanta, GA, Amerika Serikat",
+    "languages": ["Bahasa Inggris"],
     "socials": {
       "twitter": "prpatel"
     }
@@ -66,8 +66,8 @@
         "url": "https://us.vuejs.org/"
       }
     ],
-    "location": "Atlanta, GA, USA",
-    "languages": ["English"],
+    "location": "Atlanta, GA, Amerika Serikat",
+    "languages": ["Bahasa Inggris"],
     "socials": {
       "twitter": "vincentmayers"
     }
@@ -75,7 +75,7 @@
   {
     "name": "Luke Thomas",
     "avatarPic": "https://pbs.twimg.com/profile_images/1123492769299877888/aviXE_M5_400x400.jpg",
-    "title": "Creator",
+    "title": "Pencipta",
     "company": "Vue.js Amsterdam",
     "projects": [
       {
@@ -83,8 +83,8 @@
         "url": "https://vuejs.amsterdam"
       }
     ],
-    "location": "Amsterdam, Netherlands",
-    "languages": ["Dutch", "English", "German"],
+    "location": "Amsterdam, Belanda",
+    "languages": ["Bahasa Belanda", "Bahasa Inggris", "Bahasa Jerman"],
     "socials": {
       "twitter": "lukevscostas",
       "linkedin": "luke-kenneth-thomas-578b3916a"
@@ -93,7 +93,7 @@
   {
     "name": "Jos Gerards",
     "avatarPic": "https://pbs.twimg.com/profile_images/1668258954831446031/RTVopxrO_400x400.jpg",
-    "title": "Event Manager",
+    "title": "Manager Acara",
     "company": "Vue.js Amsterdam",
     "projects": [
       {
@@ -101,8 +101,8 @@
         "url": "https://vuejs.amsterdam"
       }
     ],
-    "location": "Amsterdam, Netherlands",
-    "languages": ["Dutch", "English", "German"],
+    "location": "Amsterdam, Belanda",
+    "languages": ["Bahasa Belanda", "Bahasa Inggris", "Bahasa Jerman"],
     "socials": {
       "twitter": "josgerards88",
       "linkedin": "josgerards"
@@ -122,8 +122,8 @@
         "url": "https://nativescript-vue.org/"
       }
     ],
-    "location": "Boston, MA, USA",
-    "languages": ["English", "French"],
+    "location": "Boston, MA, Amerika Serikat",
+    "languages": ["Bahasa Inggris", "Bahasa Prancis"],
     "socials": {
       "github": "jlooper",
       "twitter": "jenlooper"
@@ -131,7 +131,7 @@
   },
   {
     "name": "Alex Jover",
-    "title": "Web, PWA and Performance Consultant",
+    "title": "Konsultan Web, PWA dan Kinerja",
     "company": "Freelance",
     "projects": [
       {
@@ -147,8 +147,8 @@
         "url": "https://github.com/alexjoverm/vue-testing-series"
       }
     ],
-    "location": "Alicante, Spain",
-    "languages": ["Spanish", "English"],
+    "location": "Alicante, Spanyol",
+    "languages": ["Bahasa Spanyol", "Bahasa Inggris"],
     "website": {
       "label": "alexjover.com",
       "url": "https://alexjover.com"
@@ -163,8 +163,8 @@
     "title": "#1 Nuxt Brother",
     "company": "NuxtLabs",
     "companyLink": "https://nuxtlabs.com",
-    "location": "Bordeaux, France",
-    "languages": ["French", "English"],
+    "location": "Bordeaux, Prancis",
+    "languages": ["Bahasa Prancis", "Bahasa Inggris"],
     "projects": [
       {
         "label": "nuxt/*",
@@ -186,11 +186,11 @@
   },
   {
     "name": "Alexandre Chopin",
-    "title": "#1 Nuxt Brother",
+    "title": "Saudara Nuxt #1",
     "company": "NuxtLabs",
     "companyLink": "https://nuxtlabs.com",
-    "location": "Bordeaux, France",
-    "languages": ["French", "English"],
+    "location": "Bordeaux, Prancis",
+    "languages": ["Bahasa Prancis", "Bahasa Inggris"],
     "projects": [
       {
         "label": "nuxt/*",
@@ -208,9 +208,9 @@
   },
   {
     "name": "Khary Sharpe",
-    "title": "Viral Newscaster",
+    "title": "Wartawan Viral",
     "location": "Kingston, Jamaica",
-    "languages": ["English"],
+    "languages": ["Bahasa Inggris"],
     "projects": [
       {
         "label": "VueJsNews",
@@ -228,11 +228,11 @@
   },
   {
     "name": "Pooya Parsa",
-    "title": "Technical Advisor",
-    "company": "Fandogh (AUT University)",
+    "title": "Penasihat Teknis",
+    "company": "Fandogh (Universitas AUT)",
     "companyLink": "https://fandogh.org",
     "location": "Tehran, Iran",
-    "languages": ["Persian", "English"],
+    "languages": ["Bahasa Persia", "Bahasa Inggris"],
     "projects": [
       {
         "label": "nuxt/*",
@@ -254,9 +254,9 @@
   },
   {
     "name": "Xin Du",
-    "title": "Nuxpert",
-    "location": "Dublin, Ireland",
-    "languages": ["Chinese", "English"],
+    "title": "Ahli Nuxt",
+    "location": "Dublin, Irlandia",
+    "languages": ["Bahasa China", "Bahasa Inggris"],
     "projects": [
       {
         "label": "nuxt/*",
@@ -274,11 +274,11 @@
   },
   {
     "name": "Yi Yang",
-    "title": "Interface Elementologist",
+    "title": "Antarmuka Elementologist",
     "company": "ele.me",
     "companyLink": "https://www.ele.me",
     "location": "Shanghai, China",
-    "languages": ["Chinese", "English"],
+    "languages": ["Bahasa China", "Bahasa Inggris"],
     "projects": [
       {
         "label": "elemefe/element",
@@ -295,7 +295,7 @@
   },
   {
     "name": "Bruno Lesieur",
-    "title": "Cofounder",
+    "title": "Rekan Pendiri",
     "company": "Orchard ID",
     "companyLink": "https://www.orchard-id.com/",
     "projects": [
@@ -312,8 +312,8 @@
         "url": "https://node-atlas.js.org/"
       }
     ],
-    "location": "Annecy, France",
-    "languages": ["French", "English"],
+    "location": "Annecy, Prancis",
+    "languages": ["Bahasa Prancis", "Bahasa Inggris"],
     "website": {
       "label": "blog.lesieur.name/",
       "url": "https://blog.lesieur.name/"
@@ -325,9 +325,9 @@
   },
   {
     "name": "ChangJoo Park",
-    "title": "Vuenthusiastic Korean Community Organizer",
-    "location": "Seoul, South Korea",
-    "languages": ["Korean", "English"],
+    "title": "Penyelenggara Komunitas Antusias Vue Korea",
+    "location": "Seoul, Korea Selatan",
+    "languages": ["Bahasa Korea", "Bahasa Inggris"],
     "projects": [
       {
         "label": "vuejs-kr/kr.vuejs.org",
@@ -349,11 +349,11 @@
   },
   {
     "name": "Erick Petrucelli",
-    "title": "Lead Software Engineer, UI/UX Specialist, Manager, Teacher, Speaker, Writer",
+    "title": "Insinyur Perangkat Lunak Utama, Spesialis UI/UX, Manager, Guru, Pembicara, Penulis",
     "company": "LawnStarter",
     "companyLink": "https://www.lawnstarter.com/",
     "location": "Campinas, Brazil",
-    "languages": ["Portuguese", "English"],
+    "languages": ["Bahasa Portugis", "Bahasa Inggris"],
     "projects": [
       {
         "label": "vuejs-br",
@@ -368,11 +368,11 @@
   },
   {
     "name": "Razvan Stoenescu",
-    "title": "Deep Space Quasar Creator",
+    "title": "Pencipta Quasar Deep Space",
     "company": "Quasar Framework",
     "companyLink": "https://quasar.dev/",
     "location": "Bucharest, Romania",
-    "languages": ["Romanian", "English"],
+    "languages": ["Bahasa Romania", "Bahasa Inggris"],
     "projects": [
       {
         "label": "quasarframework/quasar",
@@ -390,7 +390,7 @@
   },
   {
     "name": "Jilson Thomas",
-    "title": "Senior Frontend Developer",
+    "title": "Pengembang Frontend Senior",
     "company": "Nominator",
     "companyLink": "https://nominator.com/",
     "projects": [
@@ -399,8 +399,8 @@
         "url": "https://vuejobs.com"
       }
     ],
-    "location": "Toronto, Canada",
-    "languages": ["English"],
+    "location": "Toronto, Kanada",
+    "languages": ["Bahasa Inggris"],
     "socials": {
       "github": "JillzTom",
       "twitter": "jilsonthomas"
@@ -408,7 +408,7 @@
   },
   {
     "name": "Israel Ortuño",
-    "title": "Full Stack Web Developer",
+    "title": "Pengembang Web Full Stack",
     "company": "Freelance",
     "projects": [
       {
@@ -416,8 +416,8 @@
         "url": "https://vuejobs.com"
       }
     ],
-    "location": "Alicante, Spain",
-    "languages": ["Spanish", "English"],
+    "location": "Alicante, Spanyol",
+    "languages": ["Bahasa Spanyol", "Bahasa Inggris"],
     "socials": {
       "github": "IsraelOrtuno",
       "twitter": "IsraelOrtuno"
@@ -428,8 +428,8 @@
     "title": "CEO",
     "company": "Vuetify LLC",
     "companyLink": "https://vuetifyjs.com",
-    "location": "Fort Worth, TX, USA",
-    "languages": ["English"],
+    "location": "Fort Worth, TX, Amerika Serikat",
+    "languages": ["Bahasa Inggris"],
     "projects": [
       {
         "label": "vuetifyjs/vuetify",
@@ -443,11 +443,11 @@
   },
   {
     "name": "Grigoriy Beziuk",
-    "title": "Full Stack Web Developer",
+    "title": "Pengembang Web Full Stack",
     "company": "Self Employed",
     "companyLink": "http://gbezyuk.ru",
-    "location": "Moscow, Russia",
-    "languages": ["Russian", "German", "English"],
+    "location": "Moscow, Rusia",
+    "languages": ["Bahasa Rusia", "Bahasa Jerman", "Bahasa Inggris"],
     "projects": [
       {
         "label": "translation-gang/ru.vuejs.org",
@@ -460,9 +460,9 @@
   },
   {
     "name": "Alexander Sokolov",
-    "title": "Russian Translation Sharp Eye",
-    "location": "Krasnodar, Russia",
-    "languages": ["Russian", "English"],
+    "title": "Terjemahan Rusia Mata Tajam",
+    "location": "Krasnodar, Rusia",
+    "languages": ["Bahasa Rusia", "Bahasa Inggris"],
     "projects": [
       {
         "label": "translation-gang/ru.vuejs.org",
@@ -473,11 +473,11 @@
   },
   {
     "name": "Anthony Gore",
-    "title": "Author",
+    "title": "Pembuat",
     "company": "Vue.js Developers",
     "companyLink": "https://vuejsdevelopers.com/",
     "location": "Sydney, Australia",
-    "languages": ["English"],
+    "languages": ["Bahasa Inggris"],
     "website": {
       "label": "vuejsdevelopers.com",
       "url": "https://vuejsdevelopers.com"
@@ -486,7 +486,7 @@
   },
   {
     "name": "EGOIST",
-    "title": "Build Tool Simplificator",
+    "title": "Penyederhana Alat Bangun",
     "location": "Chengdu, China",
     "projects": [
       {
@@ -502,14 +502,14 @@
         "url": "https://github.com/egoist/vue-play"
       }
     ],
-    "languages": ["Chinese", "English"],
+    "languages": ["Bahasa China", "Bahasa Inggris"],
     "socials": { "github": "egoist", "twitter": "_egoistlily" }
   },
   {
     "name": "Alex Kyriakidis",
-    "title": "Consultant / Author",
-    "location": "Thessaloniki, Greece",
-    "languages": ["el", "English"],
+    "title": "Konsultan / Pembuat",
+    "location": "Thessaloniki, Yunani",
+    "languages": ["el", "Bahasa Inggris"],
     "socials": { "github": "hootlex", "twitter": "hootlex" },
     "projects": [
       {
@@ -536,11 +536,11 @@
   },
   {
     "name": "Rolf Haug",
-    "title": "Educator & Consultant",
+    "title": "Edukator & Konsultan",
     "company": "Vue School",
     "companyLink": "https://vueschool.io/",
-    "location": "Oslo, Norway",
-    "languages": ["English"],
+    "location": "Oslo, Norwegia",
+    "languages": ["Bahasa Inggris"],
     "projects": [
       {
         "label": "vueschool.io",
@@ -555,11 +555,11 @@
   },
   {
     "name": "Andrew Tomaka",
-    "title": "The Server Server",
+    "title": "Server Server",
     "company": "Michigan State University",
     "companyLink": "https://msu.edu/",
-    "location": "East Lansing, MI, USA",
-    "languages": ["English"],
+    "location": "East Lansing, MI, Amerika Serikat",
+    "languages": ["Bahasa Inggris"],
     "projects": [
       {
         "label": "vuejs/*",
@@ -577,8 +577,8 @@
     "title": "Software Engineer",
     "company": "Attest",
     "companyLink": "https://www.askattest.com/",
-    "location": "London, UK",
-    "languages": ["English"],
+    "location": "London, Inggris",
+    "languages": ["Bahasa Inggris"],
     "projects": [
       {
         "label": "vuejs.london",
@@ -589,7 +589,7 @@
   },
   {
     "name": "Filip Rakowski",
-    "title": "Co-founder of Vue Storefront",
+    "title": "Rekan Pendiri dari Storefront Vue",
     "company": "Divante",
     "companyLink": "https://divante.co/",
     "location": "Wrocław, Poland",
@@ -608,11 +608,11 @@
   },
   {
     "name": "Gregg Pollack",
-    "title": "Vue Instructor",
+    "title": "Pengajar Vue",
     "company": "Vue Mastery",
     "companyLink": "https://www.vuemastery.com/",
-    "location": "Orlando, FL, USA",
-    "languages": ["English"],
+    "location": "Orlando, FL, Amerika Serikat",
+    "languages": ["Bahasa Inggris"],
     "projects": [
       {
         "label": "www.vuemastery.com",
@@ -627,11 +627,11 @@
   },
   {
     "name": "Adam Jahr",
-    "title": "Vue Instructor",
+    "title": "Pengajar Vue",
     "company": "Vue Mastery",
     "companyLink": "https://www.vuemastery.com/",
-    "location": "Orlando, FL, USA",
-    "languages": ["English"],
+    "location": "Orlando, FL, Amerika Serikat",
+    "languages": ["Bahasa Inggris"],
     "projects": [
       {
         "label": "www.vuemastery.com",

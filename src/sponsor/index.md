@@ -13,57 +13,57 @@ import { onMounted } from 'vue'
 onMounted(load)
 </script>
 
-# Become a Vue.js Sponsor {#become-a-vue-js-sponsor}
+# Menjadi Sponsor Vue.js {#become-a-vue-js-sponsor}
 
-Vue.js is an MIT licensed open source project and completely free to use.
-The tremendous amount of effort needed to maintain such a large ecosystem and develop new features for the project is only made sustainable thanks to the generous financial backing of our sponsors.
+Vue.js adalah proyek sumber terbuka berlisensi MIT dan sepenuhnya bebas untuk digunakan.
+Jumlah yang luar biasa dari upaya yang diperlukan untuk mempertahankan ekosistem besar seperti itu dan mengembangkan fitur-fitur baru untuk proyek hanya dibuat berkelanjutan berkat dukungan keuangan yang murah hati dari sponsor kami.
 
-## How to Sponsor {#how-to-sponsor}
+## Cara Sponsor {#how-to-sponsor}
 
-Sponsorships can be done via [GitHub Sponsors](https://github.com/sponsors/yyx990803) or [OpenCollective](https://opencollective.com/vuejs). Invoices can be obtained via GitHub's payment system. Both monthly-recurring sponsorships and one-time donations are accepted. Recurring sponsorships are entitled to logo placements as specified in [Sponsorship Tiers](#tier-benefits).
+Sponsor dapat dilakukan melalui [Sponsor GitHub](https://github.com/sponsors/yyx990803) atau [OpenCollective](https://opencollective.com/vuejs). Faktur dapat diperoleh melalui sistem pembayaran GitHub. Baik sponsor berulang bulanan dan sumbangan satu kali diterima. Sponsor berulang berhak atas penempatan logo sebagaimana ditentukan dalam [Tingkatan Sponsor](#tier-benefits).
 
-If you have questions regarding tiers, payment logistics, or sponsor exposure data, please reach out to [sponsor@vuejs.org](mailto:sponsor@vuejs.org?subject=Vue.js%20sponsorship%20inquiry).
+Jika Anda memiliki pertanyaan tentang Tingkatan, logistik pembayaran, atau data eksposur sponsor, silakan hubungi [sponsor@vuejs.org](mailto:sponsor@vuejs.org?subject=Vue.js%20sponsorship%20inquiry).
 
-## Sponsoring Vue as a Business {#sponsoring-vue-as-a-business}
+## Mensponsori Vue sebagai Bisnis {#sponsoring-vue-as-a-business}
 
-Sponsoring Vue gives you great exposure to over **2 million** Vue developers around the world through our website and GitHub project READMEs. This not only directly generates leads, but also improves your brand recognition as a business that cares about Open Source. This is an intangible but extremely important asset for companies building products for developers, as it improves your conversion rate.
+Mensponsori Vue memberi Anda paparan yang baik untuk lebih dari **2 juta** Pengembang Vue di seluruh dunia melalui situs web kami dan README proyek GitHub. Ini tidak hanya secara langsung menghasilkan arahan, tetapi juga meningkatkan pengakuan merek Anda sebagai bisnis yang peduli dengan sumber terbuka. Ini adalah aset yang tidak berwujud namun sangat penting bagi perusahaan untuk membangun produk untuk pengembang, karena meningkatkan tingkat konversi Anda.
 
-If you are using Vue to build a revenue-generating product, it makes business sense to sponsor Vue's development: **it ensures the project that your product relies on stays healthy and actively maintained.** The exposure and positive brand image in the Vue community also makes it easier to attract and recruit Vue developers.
+Jika Anda menggunakan Vue untuk membangun produk yang menghasilkan pendapatan, itu membuat bisnis masuk akal untuk mensponsori pengembangan Vue: **Ini memastikan proyek yang diandalkan produk Anda tetap sehat dan dipelihara secara aktif.** Paparan dan citra merek positif di komunitas Vue juga memudahkannya untuk menarik dan merekrut pengembang Vue.
 
-If you are building a product where your target customers are developers, you will gain high quality traffic through the sponsorship exposure, since all our visitors are developers. The sponsorship also builds brand recognition and improves conversion.
+Jika Anda membangun produk di mana pelanggan target Anda adalah pengembang, Anda akan mendapatkan lalu lintas berkualitas tinggi melalui paparan sponsor, karena semua pengunjung kami adalah pengembang. Sponsor juga membangun pengakuan merek dan meningkatkan konversi.
 
-## Sponsoring Vue as an Individual {#sponsoring-vue-as-an-individual}
+## Mensponsori Vue sebagai individu {#sponsoring-vue-as-an-individual}
 
-If you are an individual user and have enjoyed the productivity of using Vue, consider donating as a sign of appreciation - like buying us coffee once in a while. Many of our team members accept sponsorships and donations via GitHub Sponsors. Look for the "Sponsor" button on each team member's profile on our [team page](/about/team).
+Jika Anda adalah pengguna individu dan telah menikmati produktivitas menggunakan Vue, pertimbangkan untuk menyumbang sebagai tanda apresiasi - seperti membelikan kami kopi sesekali. Banyak anggota tim kami menerima sponsor dan sumbangan melalui Sponsor GitHub. Cari tombol "Sponsor" pada setiap profil anggota tim di [halaman tim](/about/team) kami.
 
-You can also try to convince your employer to sponsor Vue as a business. This may not be easy, but business sponsorships typically make a much larger impact on the sustainability of OSS projects than individual donations, so you will help us much more if you succeed.
+Anda juga dapat mencoba meyakinkan majikan Anda untuk mensponsori Vue sebagai bisnis. Ini mungkin tidak mudah, tetapi sponsor bisnis biasanya menghasilkan dampak yang jauh lebih besar pada keberlanjutan proyek OSS daripada sumbangan individu, sehingga Anda akan membantu kami lebih banyak jika Anda berhasil.
 
-## Tier Benefits {#tier-benefits}
+## Manfaat Tingkat {#tier-benefits}
 
-- **Global Special Sponsor**:
-  - Limited to **one** sponsor globally. <span v-if="!data?.special">Currently vacant. [Get in touch](mailto:sponsor@vuejs.org?subject=Vue.js%20special%20sponsor%20inquiry)!</span><span v-else>(Currently filled)</span>
-  - (Exclusive) **Above the fold** logo placement on the front page of [vuejs.org](/).
-  - (Exclusive) Special shoutout and regular retweets of major product launches via [Vue's official X account](https://twitter.com/vuejs) (320k followers).
-  - Most prominent logo placement in all locations from tiers below.
-- **Platinum (USD$2,000/mo)**:
-  - Prominent logo placement on the front page of [vuejs.org](/).
-  - Prominent logo placement in sidebar of all content pages.
-  - Prominent logo placement in the README of [`vuejs/core`](https://github.com/vuejs/core) and [`vuejs/vue`](https://github.com/vuejs/core).
-- **Gold (USD$500/mo)**:
-  - Large logo placement on the front page of [vuejs.org](/).
-  - Large logo placement in the README of `vuejs/core` and `vuejs/vue`.
-- **Silver (USD$250/mo)**:
-  - Medium logo placement in the `BACKERS.md` file of `vuejs/core` and `vuejs/vue`.
-- **Bronze (USD$100/mo)**:
-  - Small logo placement in the `BACKERS.md` file of `vuejs/core` and `vuejs/vue`.
-- **Generous Backer (USD$50/mo)**:
-  - Name listed in the `BACKERS.md` file of `vuejs/core` and `vuejs/vue`, above other individual backers.
-- **Individual Backer (USD$5/mo)**:
-  - Name listed in the `BACKERS.md` file of `vuejs/core` and `vuejs/vue`.
+- **Sponsor Khusus Global**:
+  - Terbatas pada **satu** sponsor secara global. <span v-if="!data?.special">Saat ini kosong. [Hubungi](mailto:sponsor@vuejs.org?subject=Vue.js%20special%20sponsor%20inquiry)!</span><span v-else>(Saat ini diisi)</span>
+  - (Eksklusif) Penempatan logo **di atas lipatan** di halaman depan [vuejs.org](/).
+  - (Eksklusif) Shoutout spesial Dan retweet regular dari peluncuran produk utama melalui [Akun X Resmi Vue](https://twitter.com/vuejs) (320k pengikut).
+  - Penempatan logo yang paling menonjol di semua lokasi dari tingkatan di bawah ini.
+- **Platinum (USD$2,000/bln)**:
+  - Penempatan logo yang menonjol di halaman depan [vuejs.org](/).
+  - Penempatan logo yang menonjol di sidebar semua halaman konten.
+  - Penempatan logo yang menonjol dalam README [`vuejs/core`](https://github.com/vuejs/core) dan [`vuejs/vue`](https://github.com/vuejs/core).
+- **Emas (USD$500/bln)**:
+  - Penempatan logo besar di halaman depan [vuejs.org](/).
+  - Penempatan logo besar di README `vuejs/core` dan `vuejs/vue`.
+- **Perak (USD$250/bln)**:
+  - Penempatan logo medium di berkas `BACKERS.md` di `vuejs/core` dan `vuejs/vue`.
+- **Perunggu (USD$100/bln)**:
+  - Penempatan logo kecil di berkas `BACKERS.md` di `vuejs/core` dan `vuejs/vue`.
+- **Pendukung Murah Hati (USD$50/bln)**:
+  - Nama didaftarkan di berkas `BACKERS.md` di `vuejs/core` dan `vuejs/vue`, di atas pendukung individu lainnya.
+- **Pendukung Individual (USD$5/bln)**:
+  - Nama didaftarkan di berkas `BACKERS.md` di `vuejs/core` dan `vuejs/vue`.
 
-## Current Sponsors {#current-sponsors}
+## Sponsor Saat Ini {#current-sponsors}
 
-### Special Global Sponsor {#special-global-sponsor}
+### Sponsor Global Khusus {#special-global-sponsor}
 
 <SponsorsGroup tier="special" placement="page" />
 
@@ -71,14 +71,14 @@ You can also try to convince your employer to sponsor Vue as a business. This ma
 
 <SponsorsGroup tier="platinum" placement="page" />
 
-### Platinum (China) {#platinum-china}
+### Platinum (Cina) {#platinum-china}
 
 <SponsorsGroup tier="platinum_china" placement="page" />
 
-### Gold {#gold}
+### Emas {#gold}
 
 <SponsorsGroup tier="gold" placement="page" />
 
-### Silver {#silver}
+### Perak {#silver}
 
 <SponsorsGroup tier="silver" placement="page" />

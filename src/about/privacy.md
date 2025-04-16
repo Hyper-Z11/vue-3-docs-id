@@ -1,42 +1,42 @@
-# Vue.js Privacy Policy {#vue.js-privacy-policy}
+# Kebijakan Privasi Vue.js {#vue.js-privacy-policy}
 
-> Effective Date: May 3, 2024
+> Tanggal Efektif: 3 Mei 2024
 
-This Privacy Policy describes the Vue.js organization ("Vue", "we", "us" or "our") practices for handling your information in connection with this website (https://vuejs.org) and our open source-related websites ("Websites") and any content, related documentation, information and services (e.g. tutorials, tools to support the developer workflow, access to resources, etc.) made available to you on this website (collectively, the "Services"). This Privacy Policy describes the personal information we process to support our Services.
+Kebijakan Privasi ini menjelaskan praktik organisasi Vue.js ("Vue", "Kami", "kita" atau "Kami") untuk menangani informasi Anda sehubungan dengan situs web ini (https://vuejs.org) dan situs web terkait sumber terbuka kami ("Situs Web") dan setiap konten, dokumentasi terkait, informasi dan layanan (mis. Tutorial, alat untuk mendukung alur kerja pengembang, akses ke sumber daya, dll.) Disediakan untuk Anda di situs web ini (secara kolektif, "layanan"). Kebijakan privasi ini menjelaskan informasi pribadi yang kami proses untuk mendukung layanan kami.
 
-For clarity, this Privacy Policy does not apply to any:
+Untuk kejelasan, kebijakan privasi ini tidak berlaku untuk:
 
-1. Use of open source code, documentation or specifications made available on GitHub (https://github.com/), which are governed by the terms of the applicable open source license;
+1. Penggunaan kode sumber terbuka, dokumentasi, atau spesifikasi yang tersedia di GitHub (https://github.com/), yang diatur oleh ketentuan lisensi sumber terbuka yang berlaku;
 
-2. Pull requests, issues and any other interactions or features related to participation in open source projects on GitHub, which are governed by GitHub's terms and conditions; or
+2. *Pull request*, masalah dan interaksi atau fitur lain yang terkait dengan partisipasi dalam proyek sumber terbuka di GitHub, yang diatur oleh syarat dan ketentuan GitHub; atau
 
-3. Usage statistics of our published packages on NPM (https://npmjs.com/), which are governed by NPM's terms and conditions; or
+3. Penggunaan statistik paket kami yang diterbitkan pada NPM (https://npmjs.com/), yang diatur oleh syarat dan ketentuan NPM; atau
 
-4. Usage statistics of our published browser / IDE extensions collected by the browser / IDE vendors. Such statistics are governed by the vendors' respective terms and conditions.
+4. Statistik penggunaan ekstensi browser / IDE yang diterbitkan yang dikumpulkan oleh vendor browser / IDE. Statistik semacam itu diatur oleh syarat dan ketentuan masing-masing vendor.
 
-## What Kinds of Information Do We Collect? {#what-kinds-of-information-do-we-collect}
+## Informasi Apa yang Kami Kumpulkan? {#what-kinds-of-information-do-we-collect}
 
-We do **not** collect or store any type of personal data, whether through our websites or through our published npm packages or browser / IDE extensions.
+Kami tidak mengumpulkan atau menyimpan semua jenis data pribadi, baik melalui situs web kami atau melalui paket NPM atau ekstensi browser / IDE kami yang diterbitkan.
 
-We may collect anonymized data via 3rd party services integrated in our websites:
+Kami dapat mengumpulkan data anonim melalui layanan pihak ke-3 yang terintegrasi di situs web kami:
 
-- **Visitor data to our websites.** Our website analytics is powered by [Fathom Analytics](https://usefathom.com/), which doesn't use cookies and complies with the GDPR, ePrivacy (including PECR), COPPA and CCPA. Using this privacy-friendly website analytics software, your IP address is only briefly processed, and we (running this website) have no way of identifying you. As per the CCPA, your personal information is de-identified. You can read more about this on Fathom Analytics' website.
+- **Data pengunjung ke situs web kami.** Analisis situs web kami ditenagai oleh [Analisis Fathom](https://usefathom.com/), yang tidak menggunakan cookie dan mematuhi GDPR, ePrivacy (termasuk PECR), COPPA dan CCPA. Dengan menggunakan perangkat lunak analisis situs web yang ramah privasi ini, alamat IP Anda hanya diproses secara singkat, dan kami (menjalankan situs web ini) tidak memiliki cara untuk mengidentifikasi Anda. Sesuai CCPA, informasi pribadi Anda tidak diidentifikasi. Anda dapat membaca lebih lanjut tentang ini di situs web Fathom Analytics.
 
-  - Fathom Analytics' Privacy Policy: https://usefathom.com/legal/privacy
+  - Kebijakan Privasi Analisis Fathom: https://usefathom.com/legal/privacy
 
-- **Usage data of the search functionality.** Our search functionality is powered by [Algolia DocSearch](https://docsearch.algolia.com/), which does not perform any type of user tracking or fingerprinting, and does not use cookies. Algolia services are GPDR compliant, CCPA compliant, and TRUSTe Certified.
+- **Penggunaan data fungsi pencarian.** Fungsi pencarian kami ditenagai oleh [Algolia DocSearch](https://docsearch.algolia.com/), yang tidak melakukan segala jenis pelacakan atau sidik jari pengguna, dan tidak menggunakan cookie. Layanan Algolia adalah GPDR compliant, CCPA Compliant, dan bersertifikasi TRUSTe.
 
-  - Algolia's privacy policy: https://www.algolia.com/policies/privacy/
-  - Algolia's security and privacy compliance: https://www.algolia.com/distributed-secure/security-compliance/
+  - Kebijakan privasi Algolia: https://www.algolia.com/policies/privacy/
+  - Kesesuaian Keamanan dan Privasi Algolia: https://www.algolia.com/distributed-secure/security-compliance/
 
-## How Do We Use Information? {#how-do-we-use-information}
+## Bagaimana Kita Menggunakan Informasi? {#how-do-we-use-information}
 
-The sole purpose of collecting the aforementioned data is to understand our website traffic and usage in the most privacy-friendly way possible so that we can continually improve our website and documentation quality. The lawful basis as per the GDPR is "Article 6(1)(f); where our legitimate interests are to improve our website and business continually." As per the explanation, no personal data is stored over time.
+Satu-satunya tujuan pengumpulan data yang disebutkan di atas adalah untuk memahami lalu lintas dan penggunaan situs web kami dengan cara yang paling ramah privasi sehingga kami dapat terus meningkatkan situs web dan kualitas dokumentasi kami. Basis yang sah sebagai GDPR adalah "Pasal 6(1)(F); di mana kepentingan sah kami adalah meningkatkan situs web dan bisnis kami secara terus-menerus." Sesuai penjelasan, tidak ada data pribadi yang disimpan dari waktu ke waktu.
 
-## Data Retention {#data-retention}
+## Retensi Data {#data-retention}
 
-All data collected are stored on aforementioned 3rd party services and are subject to the services' respective data retention policies.
+Semua data yang dikumpulkan disimpan pada layanan pihak ke-3 yang disebutkan di atas dan tunduk pada kebijakan retensi data masing-masing.
 
-## Questions {#questions}
+## Pertanyaan {#questions}
 
-If you have any questions about this Privacy Policy or our practices, please contact us via email at hello@vuejs.org.
+Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau praktik kami, silakan hubungi kami melalui email di hello@vuejs.org.

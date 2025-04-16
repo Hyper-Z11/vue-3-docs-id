@@ -1,7 +1,7 @@
 [
   {
     "name": "Sarah Drasner",
-    "title": "Director of Engineering, Core Developer Web",
+    "title": "Direktur Teknik, Web Pengembang Inti",
     "company": "Google",
     "companyLink": "https://google.com",
     "projects": [
@@ -26,8 +26,8 @@
         "url": "https://github.com/sdras/ecommerce-netlify"
       }
     ],
-    "location": "Denver, CO, USA",
-    "languages": ["English"],
+    "location": "Denver, CO, Amerika Serikat",
+    "languages": ["Bahasa Inggris"],
     "website": {
       "label": "sarah.dev",
       "url": "https://sarah.dev/"
@@ -40,9 +40,9 @@
   },
   {
     "name": "Chris Fritz",
-    "title": "Educator & Consultant",
-    "location": "Durham, NC, USA",
-    "languages": ["English", "German"],
+    "title": "Pendidik & Konsultan",
+    "location": "Durham, NC, Amerika Serikat",
+    "languages": ["Bahasa Inggris", "Bahasa Jerman"],
     "socials": {
       "github": "chrisvfritz",
       "twitter": "chrisvfritz"
@@ -51,9 +51,9 @@
   },
   {
     "name": "Blake Newman",
-    "title": "Performance Specializer & Code Deleter",
-    "location": "London, UK",
-    "languages": ["English"],
+    "title": "Spesialisasi Kinerja & Penghapus Kode",
+    "location": "London, Inggris",
+    "languages": ["Bahasa Inggris"],
     "socials": {
       "github": "blake-newman",
       "twitter": "blakenewman"
@@ -61,7 +61,7 @@
   },
   {
     "name": "kingwl",
-    "title": "Software Development Engineer",
+    "title": "Insinyur Pengembangan Perangkat Lunak",
     "company": "Chaitin",
     "companyLink": "https://chaitin.cn/",
     "projects": [
@@ -71,14 +71,14 @@
       }
     ],
     "location": "Beijing, China",
-    "languages": ["Chinese"],
+    "languages": ["Bahasa China"],
     "socials": {
       "github": "kingwl"
     }
   },
   {
     "name": "Alan Song",
-    "title": "Cofounder",
+    "title": "Rekan Pendiri",
     "company": "Futurenda",
     "companyLink": "https://www.futurenda.com/",
     "projects": [
@@ -88,40 +88,40 @@
       }
     ],
     "location": "Hangzhou, China",
-    "languages": ["Chinese", "English"],
+    "languages": ["Bahasa China", "Bahasa Inggris"],
     "socials": {
       "github": "fnlctrl"
     }
   },
   {
     "name": "defcc",
-    "title": "Details Deity & Bug Surgeon",
+    "title": "Details Deity & Ahli Bedah Bug",
     "company": "Indie Developer",
     "companyLink": "https://indiefollow.top/",
     "location": "Chongqing, China",
-    "languages": ["Chinese", "English"],
+    "languages": ["Bahasa China", "Bahasa Inggris"],
     "socials": {
       "github": "defcc"
     }
   },
   {
     "name": "gebilaoxiong",
-    "title": "Issue Annihilator",
+    "title": "Pembasmi Masalah",
     "company": "zbj.com",
     "companyLink": "http://www.zbj.com/",
     "location": "Chongqing, China",
-    "languages": ["Chinese", "English"],
+    "languages": ["Bahasa China", "Bahasa Inggris"],
     "socials": {
       "github": "gebilaoxiong"
     }
   },
   {
     "name": "Denis Karabaza",
-    "title": "Software Engineer",
+    "title": "Insinyur Perangkat Lunak",
     "company": "Neolant",
     "companyLink": "http://neolant.ru/",
-    "location": "Dubna, Russia",
-    "languages": ["Russian", "English"],
+    "location": "Dubna, Rusia",
+    "languages": ["Bahasa Rusia", "Bahasa Inggris"],
     "socials": {
       "github": "simplesmiler",
       "twitter": "simplesmiler"
@@ -129,7 +129,7 @@
   },
   {
     "name": "Edd Yerburgh",
-    "title": "Full Stack Developer",
+    "title": "Pengembang Full Stack",
     "projects": [
       {
         "label": "vue-test-utils",
@@ -140,8 +140,8 @@
         "url": "https://github.com/avoriaz"
       }
     ],
-    "location": "London, UK",
-    "languages": ["English"],
+    "location": "London, Inggris",
+    "languages": ["Bahasa Inggris"],
     "socials": {
       "github": "eddyerburgh",
       "twitter": "EddYerburgh"
@@ -161,7 +161,7 @@
       }
     ],
     "location": "Shanghai, China",
-    "languages": ["Chinese", "English", "Japanese"],
+    "languages": ["Bahasa China", "Bahasa Inggris", "Bahasa Jepang"],
     "socials": {
       "github": "octref",
       "twitter": "octref"
@@ -169,7 +169,7 @@
   },
   {
     "name": "ULIVZ",
-    "title": "Senior Frontend Developer",
+    "title": "Pengembang Frontend Senior",
     "company": "AntFinancial",
     "companyLink": "https://www.antfin.com",
     "projects": [
@@ -179,12 +179,12 @@
       }
     ],
     "location": "Hangzhou, China",
-    "languages": ["Chinese", "English"],
+    "languages": ["Bahasa China", "Bahasa Inggris"],
     "socials": { "github": "ulivz", "twitter": "_ulivz" }
   },
   {
     "name": "Katashin",
-    "title": "Software Engineer",
+    "title": "Insinyur Perangkat Lunak",
     "company": "ClassDo",
     "companyLink": "https://classdo.com",
     "projects": [
@@ -201,8 +201,8 @@
         "url": "https://github.com/ktsn/vue-designer"
       }
     ],
-    "location": "Singapore",
-    "languages": ["Japanese", "English"],
+    "location": "Singapura",
+    "languages": ["Bahasa Jepang", "Bahasa Inggris"],
     "socials": {
       "github": "ktsn",
       "twitter": "ktsn"
@@ -210,11 +210,11 @@
   },
   {
     "name": "Michał Sajnóg",
-    "title": "Senior Frontend Developer / Team Leader",
+    "title": "Pengembang Frontend Senior / Pemimpin Tim",
     "company": "Netguru",
     "companyLink": "https://netguru.co/",
-    "location": "Poznań, Poland",
-    "languages": ["Polish", "English"],
+    "location": "Poznań, Polandia",
+    "languages": ["Bahasa Polandia", "Bahasa Inggris"],
     "projects": [
       {
         "label": "eslint-plugin-vue",
@@ -240,7 +240,7 @@
   },
   {
     "name": "Damian Dulisz",
-    "title": "Consultant",
+    "title": "Konsultan",
     "projects": [
       {
         "label": "news.vuejs.org",
@@ -251,8 +251,8 @@
         "url": "https://vue-multiselect.js.org/"
       }
     ],
-    "location": "Wrocław, Poland",
-    "languages": ["Polish", "English"],
+    "location": "Wrocław, Polandia",
+    "languages": ["Bahasa Polandia", "Bahasa Inggris"],
     "socials": {
       "github": "shentao",
       "twitter": "DamianDulisz"
@@ -261,7 +261,7 @@
   },
   {
     "name": "HcySunYang",
-    "title": "Developer",
+    "title": "Pengembang",
     "projects": [
       {
         "label": "vuejs/core",
@@ -269,7 +269,7 @@
       }
     ],
     "location": "Beijing, China",
-    "languages": ["Chinese", "English"],
+    "languages": ["Bahasa China", "Bahasa Inggris"],
     "socials": {
       "github": "HcySunYang",
       "twitter": "HcySunYang"
@@ -277,7 +277,7 @@
   },
   {
     "name": "Rahul Kadyan",
-    "title": "Software Engineer",
+    "title": "Insinyur Perangkat Lunak",
     "company": "Grammarly",
     "companyLink": "https://grammarly.com/",
     "projects": [
@@ -292,7 +292,7 @@
       }
     ],
     "location": "Bangalore, India",
-    "languages": ["Hindi", "English"],
+    "languages": ["Bahasa India", "Bahasa Inggris"],
     "socials": {
       "github": "znck",
       "twitter": "znck0"

@@ -1,28 +1,53 @@
-# vuejs.org
+# vue-3-docs-id
 
-## Contributing
+> **CATATAN**:
+> Ini adalah repositori terjemahan dokumentasi Vue 3 dalam Bahasa Indonesia.
+> Repositori ini **belum (atau tidak akan)** di-*deploy*.
+> Kalian bisa berkontribusi dalam membantu menerjemahkan repositori terjemahan ini.
+> Seperi memperbaiki terjemahan yang keliru, menerjemahkan yang belum diterjemahkan, dan lain-lain.
 
-This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on [@vue/theme](https://github.com/vuejs/vue-theme). Site content is written in Markdown format located in `src`. For simple edits, you can directly edit the file on GitHub and generate a Pull Request.
+## Berkontribusi
 
-For local development, [pnpm](https://pnpm.io/) is preferred as package manager:
+Silahkan klon repositori ini.
+
+Proyek ini membutuhkan Node.js `v18` atau lebih tinggi. Dan ini direkomendasikan untuk mengaktifkan *corepack*:
+
+```bash
+corepack enable
+```
+
+Lalu install semua dependensi yang dibutuhkan menggunakan [pnpm](https://pnpm.io/) sebagai *package manager*, dan mulai pengembangan lokal.
 
 ```bash
 pnpm i
 pnpm run dev
 ```
 
-This project requires Node.js to be `v18` or higher. And it is recommended to enable corepack:
+Edit berkas yang ada di dalam folder `src` dan `.vitepress`
+
+---
+
+> **NOTE**:
+> This is the repository of the translation of Vue 3 documentation in Indonesian.
+> This repository has **not been (or not)** in deploy.
+> You can contribute to helping to translate this translation repository.
+> Like fixing the wrong translation, translating that has not been translated, and others.
+
+## Contributing
+
+Please clone this repository.
+
+This project requires node.js `v18` or higher. And this is recommended to enable corepack:
 
 ```bash
 corepack enable
 ```
 
-## Working on the content
+Then install all needed dependencies using [pnpm](https://pnpm.io/) as package manager, and start local development.
 
-- See VitePress docs on supported [Markdown Extensions](https://vitepress.dev/guide/markdown) and the ability to [use Vue syntax inside markdown](https://vitepress.dev/guide/using-vue).
+```bash
+pnpm i
+pnpm run dev
+```
 
-- See the [Writing Guide](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) for our rules and recommendations on writing and maintaining documentation content.
-
-## Working on the theme
-
-If changes need to made for the theme, check out the [instructions for developing the theme alongside the docs](https://github.com/vuejs/vue-theme#developing-with-real-content).
+Edit the file in the `src` and `.vitepress` folder.

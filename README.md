@@ -8,7 +8,7 @@
 
 ## Berkontribusi
 
-Silahkan klon repositori ini.
+Silahkan *fork* dan klon repositori ini.
 
 Proyek ini membutuhkan Node.js `v18` atau lebih tinggi. Dan ini direkomendasikan untuk mengaktifkan *corepack*:
 
@@ -35,7 +35,7 @@ Edit berkas yang ada di dalam folder `src` dan `.vitepress`
 
 ## Contributing
 
-Please clone this repository.
+Please fork and clone this repository.
 
 This project requires node.js `v18` or higher. And this is recommended to enable corepack:
 

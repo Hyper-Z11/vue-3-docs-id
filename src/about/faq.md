@@ -54,9 +54,9 @@ Ketika Anda menggunakan alat build, banyak API Vue yang di [*"tree-shakable"*](h
 
 Aplikasi Hello World Vue yang hanya menggunakan API yang benar-benar minimal memiliki ukuran dasar hanya sekitar **16kb**, dengan kompresi minifikasi dan brotli. Ukuran sebenarnya dari aplikasi akan tergantung pada berapa banyak fitur opsional yang Anda gunakan dari kerangka kerja. Dalam kasus yang tidak mungkin di mana aplikasi menggunakan setiap fitur yang disediakan Vue, ukuran total runtime sekitar **27kb**.
 
-Saat menggunakan Vue tanpa alat build, kami tidak hanya kehilangan *tree-shaking*, tetapi juga harus mengirimkan kompiler templat ke browser. Ini mengasapi ukuran menjadi sekitar **41kb**. Oleh karena itu, jika Anda menggunakan Vue terutama untuk peningkatan progresif tanpa langkah build, pertimbangkan untuk menggunakan [petite-vue](https://github.com/vuejs/petite-vue) (hanya **6Kb**) sebagai gantinya.
+Saat menggunakan Vue tanpa alat build, kami tidak hanya kehilangan *tree-shaking*, tetapi juga harus mengirimkan kompiler templat ke peramban. Ini mengasapi ukuran menjadi sekitar **41kb**. Oleh karena itu, jika Anda menggunakan Vue terutama untuk peningkatan progresif tanpa langkah build, pertimbangkan untuk menggunakan [petite-vue](https://github.com/vuejs/petite-vue) (hanya **6Kb**) sebagai gantinya.
 
-Beberapa kerangka kerja, seperti Svelte, gunakan strategi kompilasi yang menghasilkan output yang sangat ringan dalam skenario komponen tunggal. Namun, [penelitian kami](https://github.com/yyx990803/vue-svelte-size-analysis) menunjukkan bahwa perbedaan ukuran sangat tergantung pada jumlah komponen dalam aplikasi. Sedangkan vue memiliki ukuran dasar yang lebih berat, menghasilkan lebih sedikit kode per komponen. Dalam skenario dunia nyata, aplikasi Vue mungkin akhirnya menjadi lebih ringan.
+Beberapa kerangka kerja, seperti Svelte, gunakan strategi kompilasi yang menghasilkan output yang sangat ringan dalam skenario komponen tunggal. Namun, [penelitian kami](https://github.com/yyx990803/vue-svelte-size-analysis) menunjukkan bahwa perbedaan ukuran sangat tergantung pada jumlah komponen dalam aplikasi. Sedangkan Vue memiliki ukuran dasar yang lebih berat, menghasilkan lebih sedikit kode per komponen. Dalam skenario dunia nyata, aplikasi Vue mungkin akhirnya menjadi lebih ringan.
 
 ## Apakah Vue Dapat Berskala? {#does-vue-scale}
 
@@ -74,7 +74,7 @@ Ya. Meskipun kesalahpahaman umum bahwa Vue hanya cocok untuk kasus penggunaan se
 
 Kami menghargai minat Anda! Silakan periksa [Panduan Komunitas](/about/community-guide) kami.
 
-## Haruskah saya menggunakan API Opsi atau Komposisi API? {#should-i-use-options-api-or-composition-api}
+## Haruskah saya menggunakan API Opsi atau API Komposisi? {#should-i-use-options-api-or-composition-api}
 
 Jika Anda baru ke Vue, kami menyediakan perbandingan tingkat tinggi antara dua gaya [di sini](/guide/introduction#which-to-choose).
 

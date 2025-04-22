@@ -2,12 +2,12 @@
 footer: false
 ---
 
-# Introduction {#introduction}
+# Pendahuluan {#introduction}
 
-:::info You are reading the documentation for Vue 3!
+:::info Anda membaca dokumentasi untuk Vue 3!
 
-- Vue 2 support has ended on **Dec 31, 2023**. Learn more about [Vue 2 EOL](https://v2.vuejs.org/eol/).
-- Upgrading from Vue 2? Check out the [Migration Guide](https://v3-migration.vuejs.org/).
+- Dukungan Vue 2 telah berakhir pada **31 Desember 2023**. Pelajari selengkapnya tentang [Akhir Hidup Vue 2](https://v2.vuejs.org/eol/).
+- Memutakhirkan dari Vue 2? Lihat [Panduan Migrasi](https://v3-migration.vuejs.org/).
   :::
 
 <style src="@theme/styles/vue-mastery.css"></style>
@@ -16,18 +16,18 @@ footer: false
     <div class="banner-wrapper">
       <img class="banner" alt="Vue Mastery banner" width="96px" height="56px" src="https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vuemastery-graphical-link-96x56.png" />
     </div>
-    <p class="description">Learn Vue with video tutorials on <span>VueMastery.com</span></p>
+    <p class="description">Pelajari Vue dengan video tutorial di <span>VueMastery.com</span></p>
     <div class="logo-wrapper">
         <img alt="Vue Mastery Logo" width="25px" src="https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vue-mastery-logo.png" />
     </div>
   </a>
 </div>
 
-## What is Vue? {#what-is-vue}
+## Apa itu Vue? {#what-is-vue}
 
-Vue (pronounced /vjuː/, like **view**) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative, component-based programming model that helps you efficiently develop user interfaces of any complexity.
+Vue (diucap /vjuː/, seperti ***view***) adalah kerangka kerja JavaScript untuk membangun antarmuka pengguna . Ini dibangun di atas HTML, CSS, dan JavaScript standar dan menyediakan deklaratif, model pemrograman berbasis komponen yang membantu Anda secara efisien mengembangkan antarmuka pengguna dengan kompleksitas apa pun.
 
-Here is a minimal example:
+Ini adalah contoh minimal:
 
 <div class="options-api">
 
@@ -68,7 +68,7 @@ createApp({
 </div>
 ```
 
-**Result**
+**Hasil**
 
 <script setup>
 import { ref } from 'vue'
@@ -81,38 +81,38 @@ const count = ref(0)
   </button>
 </div>
 
-The above example demonstrates the two core features of Vue:
+Contoh diatas mendemonstrasikan dua fitur inti dari Vue:
 
-- **Declarative Rendering**: Vue extends standard HTML with a template syntax that allows us to declaratively describe HTML output based on JavaScript state.
+- **Rendering Deklaratif**: Vue memperluas HTML standar dengan sintaks templat yang memungkinkan kita untuk secara deklaratif menggambarkan keluaran HTML berdasarkan keadaan JavaScript.
 
-- **Reactivity**: Vue automatically tracks JavaScript state changes and efficiently updates the DOM when changes happen.
+- **Reaktivitas**: Vue secara otomatis melacak perubahan keadaan JavaScript dan memperbarui DOM secara efisien ketika perubahan terjadi.
 
-You may already have questions - don't worry. We will cover every little detail in the rest of the documentation. For now, please read along so you can have a high-level understanding of what Vue offers.
+Anda mungkin sudah memiliki pertanyaan - Jangan khawatir. Kami akan mencakup setiap detail kecil dalam dokumentasi lainnya. Untuk saat ini, silakan baca bersama sehingga Anda dapat memiliki pemahaman tingkat tinggi tentang apa yang Vue tawarkan.
 
-:::tip Prerequisites
-The rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with these overviews for [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript), [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) if needed. Prior experience with other frameworks helps, but is not required.
+:::tip Prasyarat
+Sisa dokumentasi mengasumsikan keakraban dasar dengan HTML, CSS, dan JavaScript. Jika Anda benar-benar baru untuk pengembangan frontend, itu mungkin bukan ide terbaik untuk melompat ke dalam kerangka kerja sebagai langkah pertama Anda - pegang dasar-dasarnya dan kemudian kembali! Anda dapat memeriksa tingkat pengetahuan Anda dengan ikhtisar ini untuk [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript), [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML), dan [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) jika diperlukan. Pengalaman sebelumnya dengan kerangka kerja lain membantu, tetapi tidak diperlukan.
 :::
 
-## The Progressive Framework {#the-progressive-framework}
+## Kerangka Kerja Progresif {#the-progressive-framework}
 
-Vue is a framework and ecosystem that covers most of the common features needed in frontend development. But the web is extremely diverse - the things we build on the web may vary drastically in form and scale. With that in mind, Vue is designed to be flexible and incrementally adoptable. Depending on your use case, Vue can be used in different ways:
+Vue adalah kerangka kerja dan ekosistem yang mencakup sebagian besar fitur umum yang diperlukan dalam pengembangan frontend. Tetapi web ini sangat beragam - hal-hal yang kami buat di web dapat bervariasi secara drastis dalam bentuk dan skala. Dengan mengingat hal itu, Vue dirancang untuk ditempatkan fleksibel dan secara bertahap. Tergantung pada kasus penggunaan Anda, Vue dapat digunakan dengan cara yang berbeda:
 
-- Enhancing static HTML without a build step
-- Embedding as Web Components on any page
-- Single-Page Application (SPA)
-- Fullstack / Server-Side Rendering (SSR)
-- Jamstack / Static Site Generation (SSG)
-- Targeting desktop, mobile, WebGL, and even the terminal
+- Meningkatkan HTML statis tanpa langkah *build*
+- Menanamkan sebagai Komponen Web di halaman mana pun
+- Aplikasi Halaman Tunggal (SPA)
+- Fullstack / Rendering Sisi Server (SSR)
+- Jamstack / Generasi Situs Statis (SSG)
+- Menargetkan desktop, ponsel, WebGL, dan bahkan terminal
 
-If you find these concepts intimidating, don't worry! The tutorial and guide only require basic HTML and JavaScript knowledge, and you should be able to follow along without being an expert in any of these.
+Jika Anda menemukan konsep-konsep ini mengintimidasi, jangan khawatir! Tutorial dan panduan ini hanya membutuhkan pengetahuan HTML dan JavaScript dasar, dan Anda harus dapat mengikuti tanpa menjadi ahli dalam hal ini.
 
-If you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in [Ways of Using Vue](/guide/extras/ways-of-using-vue).
+Jika Anda seorang pengembang berpengalaman yang tertarik pada cara mengintegrasikan Vue terbaik ke dalam tumpukan Anda, atau Anda ingin tahu tentang apa arti istilah-istilah ini, kami membahasnya secara lebih rinci dalam [Cara Menggunakan Vue](/guide/extras/ways-of-using-vue).
 
-Despite the flexibility, the core knowledge about how Vue works is shared across all these use cases. Even if you are just a beginner now, the knowledge gained along the way will stay useful as you grow to tackle more ambitious goals in the future. If you are a veteran, you can pick the optimal way to leverage Vue based on the problems you are trying to solve, while retaining the same productivity. This is why we call Vue "The Progressive Framework": it's a framework that can grow with you and adapt to your needs.
+Terlepas dari fleksibilitas, pengetahuan inti tentang bagaimana cara kerja Vue dibagi di semua kasus penggunaan ini. Bahkan jika Anda hanyalah pemula sekarang, pengetahuan yang diperoleh sepanjang jalan akan tetap berguna saat Anda tumbuh untuk mengatasi gol yang lebih ambisius di masa depan. Jika Anda seorang veteran, Anda dapat memilih cara optimal untuk memanfaatkan Vue berdasarkan masalah yang Anda coba selesaikan, sambil mempertahankan produktivitas yang sama. Inilah sebabnya mengapa kami menyebut Vue "Kerangka Kerja Progresif": Ini adalah kerangka kerja yang dapat tumbuh bersama Anda dan beradaptasi dengan kebutuhan Anda.
 
-## Single-File Components {#single-file-components}
+## Komponen Berkas Tunggal {#single-file-components}
 
-In most build-tool-enabled Vue projects, we author Vue components using an HTML-like file format called **Single-File Component** (also known as `*.vue` files, abbreviated as **SFC**). A Vue SFC, as the name suggests, encapsulates the component's logic (JavaScript), template (HTML), and styles (CSS) in a single file. Here's the previous example, written in SFC format:
+Dalam sebagian besar proyek Vue yang berkemampuan untuk-mengaktifkan, kami membuat komponen Vue menggunakan format file seperti HTML yang disebut **Komponen Berkas Tunggal/Single-File Component** (juga dikenal sebagai berkas `* .vue`, disingkat SFC). SFC Vue, seperti namanya, merangkum logika komponen (JavaScript), template (HTML), dan gaya (CSS) dalam satu file. Inilah contoh sebelumnya, yang ditulis dalam format SFC:
 
 <div class="options-api">
 
@@ -160,15 +160,15 @@ button {
 
 </div>
 
-SFC is a defining feature of Vue and is the recommended way to author Vue components **if** your use case warrants a build setup. You can learn more about the [how and why of SFC](/guide/scaling-up/sfc) in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.
+SFC adalah fitur mendefinisikan Vue dan merupakan cara yang disarankan untuk menulis komponen Vue **jika** kasus penggunaan Anda menjamin pengaturan *build*. Anda dapat mempelajari lebih lanjut tentang [bagaimana dan mengapa SFC](/guide/scaling-up/sfc) di bagian khususnya - tetapi untuk saat ini, hanya tahu bahwa Vue akan menangani semua pengaturan alat *build* untuk Anda.
 
-## API Styles {#api-styles}
+## Gaya API {#api-styles}
 
-Vue components can be authored in two different API styles: **Options API** and **Composition API**.
+Komponen Vue dapat ditulis dalam dua gaya API yang berbeda: **API Opsi** and **API Komposisi**.
 
-### Options API {#options-api}
+### API Opsi {#options-api}
 
-With Options API, we define a component's logic using an object of options such as `data`, `methods`, and `mounted`. Properties defined by options are exposed on `this` inside functions, which points to the component instance:
+Dengan opsi API, kami mendefinisikan logika komponen menggunakan objek opsi seperti `data`,`methods`, dan `mounted`. Properti yang ditentukan oleh opsi diekspos pada fungsi dalam `this`, yang menunjuk pada instance komponen:
 
 ```vue
 <script>
@@ -203,13 +203,13 @@ export default {
 </template>
 ```
 
-[Try it in the Playground](https://play.vuejs.org/#eNptkMFqxCAQhl9lkB522ZL0HNKlpa/Qo4e1ZpLIGhUdl5bgu9es2eSyIMio833zO7NP56pbRNawNkivHJ25wV9nPUGHvYiaYOYGoK7Bo5CkbgiBBOFy2AkSh2N5APmeojePCkDaaKiBt1KnZUuv3Ky0PppMsyYAjYJgigu0oEGYDsirYUAP0WULhqVrQhptF5qHQhnpcUJD+wyQaSpUd/Xp9NysVY/yT2qE0dprIS/vsds5Mg9mNVbaDofL94jZpUgJXUKBCvAy76ZUXY53CTd5tfX2k7kgnJzOCXIF0P5EImvgQ2olr++cbRE4O3+t6JxvXj0ptXVpye1tvbFY+ge/NJZt)
+[Cobalah di Taman Bermain](https://play.vuejs.org/#eNptkMFqxCAQhl9lkB522ZL0HNKlpa/Qo4e1ZpLIGhUdl5bgu9es2eSyIMio833zO7NP56pbRNawNkivHJ25wV9nPUGHvYiaYOYGoK7Bo5CkbgiBBOFy2AkSh2N5APmeojePCkDaaKiBt1KnZUuv3Ky0PppMsyYAjYJgigu0oEGYDsirYUAP0WULhqVrQhptF5qHQhnpcUJD+wyQaSpUd/Xp9NysVY/yT2qE0dprIS/vsds5Mg9mNVbaDofL94jZpUgJXUKBCvAy76ZUXY53CTd5tfX2k7kgnJzOCXIF0P5EImvgQ2olr++cbRE4O3+t6JxvXj0ptXVpye1tvbFY+ge/NJZt)
 
-### Composition API {#composition-api}
+### API Komposisi {#composition-api}
 
-With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with [`<script setup>`](/api/sfc-script-setup). The `setup` attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in `<script setup>` are directly usable in the template.
+Dengan API komposisi, kami mendefinisikan logika komponen menggunakan fungsi API impor. Dalam SFC, komposisi API biasanya digunakan dengan [`<script setup>`](/api/sfc-script-setup). Atribut `setup` adalah petunjuk yang membuat Vue melakukan transformasi kompilasi yang memungkinkan kita menggunakan API komposisi dengan lebih sedikit *boilerplate*. Misalnya, impor dan variabel / fungsi tingkat atas yang dinyatakan dalam `<script setup>` secara langsung dapat digunakan dalam templat.
 
-Here is the same component, with the exact same template, but using Composition API and `<script setup>` instead:
+Berikut adalah komponen yang sama, dengan templat yang sama persis, tetapi menggunakan API komposisi dan `<script setup>` sebagai gantinya:
 
 ```vue
 <script setup>
@@ -234,49 +234,49 @@ onMounted(() => {
 </template>
 ```
 
-[Try it in the Playground](https://play.vuejs.org/#eNpNkMFqwzAQRH9lMYU4pNg9Bye09NxbjzrEVda2iLwS0spQjP69a+yYHnRYad7MaOfiw/tqSliciybqYDxDRE7+qsiM3gWGGQJ2r+DoyyVivEOGLrgRDkIdFCmqa1G0ms2EELllVKQdRQa9AHBZ+PLtuEm7RCKVd+ChZRjTQqwctHQHDqbvMUDyd7mKip4AGNIBRyQujzArgtW/mlqb8HRSlLcEazrUv9oiDM49xGGvXgp5uT5his5iZV1f3r4HFHvDprVbaxPhZf4XkKub/CDLaep1T7IhGRhHb6WoTADNT2KWpu/aGv24qGKvrIrr5+Z7hnneQnJu6hURvKl3ryL/ARrVkuI=)
+[Cobalah di Taman Bermain](https://play.vuejs.org/#eNpNkMFqwzAQRH9lMYU4pNg9Bye09NxbjzrEVda2iLwS0spQjP69a+yYHnRYad7MaOfiw/tqSliciybqYDxDRE7+qsiM3gWGGQJ2r+DoyyVivEOGLrgRDkIdFCmqa1G0ms2EELllVKQdRQa9AHBZ+PLtuEm7RCKVd+ChZRjTQqwctHQHDqbvMUDyd7mKip4AGNIBRyQujzArgtW/mlqb8HRSlLcEazrUv9oiDM49xGGvXgp5uT5his5iZV1f3r4HFHvDprVbaxPhZf4XkKub/CDLaep1T7IhGRhHb6WoTADNT2KWpu/aGv24qGKvrIrr5+Z7hnneQnJu6hURvKl3ryL/ARrVkuI=)
 
-### Which to Choose? {#which-to-choose}
+### Mana Yang Dipilih? {#which-to-choose}
 
-Both API styles are fully capable of covering common use cases. They are different interfaces powered by the exact same underlying system. In fact, the Options API is implemented on top of the Composition API! The fundamental concepts and knowledge about Vue are shared across the two styles.
+Kedua gaya API sepenuhnya mampu menutupi kasus penggunaan umum. Mereka adalah antarmuka yang berbeda yang ditenagai oleh sistem yang mendasari yang sama persis. Bahkan, API Opsi diimplementasikan di atas API Komposisi! Konsep dan pengetahuan mendasar tentang Vue dibagikan di dua gaya.
 
-The Options API is centered around the concept of a "component instance" (`this` as seen in the example), which typically aligns better with a class-based mental model for users coming from OOP language backgrounds. It is also more beginner-friendly by abstracting away the reactivity details and enforcing code organization via option groups.
+API Opsi berpusat di sekitar konsep "instance komponen" (`this` seperti yang terlihat dalam contoh), yang biasanya selaras dengan model mental berbasis kelas untuk pengguna yang berasal dari latar belakang bahasa OOP. Ini juga lebih ramah pemula dengan mengabstraksi detail reaktivitas dan menegakkan organisasi kode melalui kelompok opsi.
 
-The Composition API is centered around declaring reactive state variables directly in a function scope and composing state from multiple functions together to handle complexity. It is more free-form and requires an understanding of how reactivity works in Vue to be used effectively. In return, its flexibility enables more powerful patterns for organizing and reusing logic.
+API Komposisi berpusat pada mendeklarasikan variabel keadaan reaktif secara langsung dalam ruang lingkup fungsi dan menyusun status dari berbagai fungsi bersama untuk menangani kompleksitas. Ini adalah bentuk yang lebih bebas dan membutuhkan pemahaman tentang bagaimana reaktivitas bekerja dalam Vue untuk digunakan secara efektif. Sebagai gantinya, fleksibilitasnya memungkinkan pola yang lebih kuat untuk mengatur dan menggunakan kembali logika.
 
-You can learn more about the comparison between the two styles and the potential benefits of Composition API in the [Composition API FAQ](/guide/extras/composition-api-faq).
+Anda dapat mempelajari lebih lanjut tentang perbandingan antara dua gaya dan manfaat potensial dari API komposisi dalam [FAQ API Komposisi](/guide/extras/composition-api-faq).
 
-If you are new to Vue, here's our general recommendation:
+Jika Anda baru ke Vue, inilah rekomendasi umum kami:
 
-- For learning purposes, go with the style that looks easier to understand to you. Again, most of the core concepts are shared between the two styles. You can always pick up the other style later.
+- Untuk tujuan pembelajaran, gunakan dengan gaya yang terlihat lebih mudah untuk dipahami dengan Anda. Sekali lagi, sebagian besar konsep inti dibagi antara dua gaya. Anda selalu dapat mengambil gaya lain nanti.
 
-- For production use:
+- Untuk penggunaan produksi:
 
-  - Go with Options API if you are not using build tools, or plan to use Vue primarily in low-complexity scenarios, e.g. progressive enhancement.
+  - Pergi dengan API Opsi Jika Anda tidak menggunakan alat *build*, atau berencana untuk menggunakan Vue terutama dalam skenario kompleksitas rendah, mis. peningkatan progresif.
 
-  - Go with Composition API + Single-File Components if you plan to build full applications with Vue.
+  - Pergilah dengan API Komposisi + Komponen Berkas Tunggal jika Anda berencana untuk membangun aplikasi lengkap dengan Vue.
 
-You don't have to commit to only one style during the learning phase. The rest of the documentation will provide code samples in both styles where applicable, and you can toggle between them at any time using the **API Preference switches** at the top of the left sidebar.
+Anda tidak harus berkomitmen untuk hanya satu gaya selama fase pembelajaran. Sisa dokumentasi akan menyediakan sampel kode dalam kedua gaya yang berlaku, dan Anda dapat beralih di antara mereka kapan saja menggunakan **Sakelar Preferensi API** di bagian atas bilah sisi kiri.
 
-## Still Got Questions? {#still-got-questions}
+## Masih Punya Pertanyaan? {#still-got-questions}
 
-Check out our [FAQ](/about/faq).
+Lihat [FAQ](/about/faq) kami.
 
-## Pick Your Learning Path {#pick-your-learning-path}
+## Pilih Jalur Belajar Anda {#pick-your-learning-path}
 
-Different developers have different learning styles. Feel free to pick a learning path that suits your preference - although we do recommend going over all of the content, if possible!
+Pengembang yang berbeda memiliki gaya belajar yang berbeda. Jangan ragu untuk memilih jalan belajar yang sesuai dengan preferensi Anda - meskipun kami merekomendasikan untuk semua konten, jika mungkin!
 
 <div class="vt-box-container next-steps">
   <a class="vt-box" href="/tutorial/">
-    <p class="next-steps-link">Try the Tutorial</p>
-    <p class="next-steps-caption">For those who prefer learning things hands-on.</p>
+    <p class="next-steps-link">Cobalah Tutorial</p>
+    <p class="next-steps-caption">Bagi mereka yang lebih suka belajar hal-hal langsung.</p>
   </a>
   <a class="vt-box" href="/guide/quick-start.html">
-    <p class="next-steps-link">Read the Guide</p>
-    <p class="next-steps-caption">The guide walks you through every aspect of the framework in full detail.</p>
+    <p class="next-steps-link">Baca Panduan</p>
+    <p class="next-steps-caption">Panduan ini menuntun Anda melalui setiap aspek kerangka kerja dalam detail penuh.</p>
   </a>
   <a class="vt-box" href="/examples/">
-    <p class="next-steps-link">Check out the Examples</p>
-    <p class="next-steps-caption">Explore examples of core features and common UI tasks.</p>
+    <p class="next-steps-link">Lihat Contoh</p>
+    <p class="next-steps-caption">Jelajahi contoh fitur inti dan tugas UI umum.</p>
   </a>
 </div>

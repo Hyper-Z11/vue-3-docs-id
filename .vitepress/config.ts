@@ -142,7 +142,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
     {
       text: 'Memulai',
       items: [
-        { text: 'Pengantar', link: '/guide/introduction' },
+        { text: 'Pendahuluan', link: '/guide/introduction' },
         {
           text: 'Mulai Cepat',
           link: '/guide/quick-start'
@@ -602,7 +602,7 @@ const i18n: ThemeConfig['i18n'] = {
   menu: 'Menu',
   returnToTop: 'Kembali ke atas',
   
-  appearance: 'Penampilan',
+  appearance: 'Tampilan',
   
   ariaLanguage: 'Pilih Bahasa',
   
@@ -617,13 +617,13 @@ const i18n: ThemeConfig['i18n'] = {
   
   search: 'Cari',
   
-  ariaSidebarNav: 'Navigasi Sidebar',
+  ariaSidebarNav: 'Navigasi Bilah Sisi',
   
   ariaSkipToContent: 'Lewati Konten',
   
   ariaDarkMode: 'Beralih mode gelap',
   
-  ariaMobileNav: 'Navigasi mobile'
+  ariaMobileNav: 'Navigasi ponsel'
 }
 
 function inlineScript(file: string): HeadConfig {

@@ -157,7 +157,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/guide/essentials/application'
         },
         {
-          text: 'Sintaks Templat',
+          text: 'Sintaksis Templat',
           link: '/guide/essentials/template-syntax'
         },
         {
